@@ -1,8 +1,6 @@
 #include "ht1632c.h"
 #include "util.h"
 
-#include <util/delay.h> // TODO
-
 #define HT1632C_PORT	PORTB
 #define HT1632C_DDR	DDRB
 #define HT1632C_NCS	PB3
